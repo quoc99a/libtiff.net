@@ -2923,7 +2923,7 @@ namespace BitMiracle.Tiff2Pdf
                     if (m_tiff_photometric != Photometric.YCBCR)
                     {
                         written += writeToFile("/DecodeParms ");
-                        written += writeToFile("<< /ColorTransform 0 >>\n");
+                        written += writeToFile("<< /ColorTransform 1 >>\n");
                     }
                     break;
 
